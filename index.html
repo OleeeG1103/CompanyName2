@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Test-3</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+
+</head>
+<body>
+	
+	<main id="test-3">
+		
+		<div class="head-wrapper">  <!--  -  -->
+		<div class="header">
+			
+			<div class="header__logo">
+				<img src="img/head_logo.jpg" alt="logo">
+
+			</div>
+
+			<div class="header__phone">
+				<p>+7(499) 777-77-77</p>
+				<p>+7(499) 777-77-77</p>
+
+				<a href="#OpenModal">Обратная связь</a>
+			</div>  <!--  -  -->
+
+		</div> <!--  /header  -->
+	 </div> <!--  /header-wrapper  -->
+
+	 <div class="model-wrapper" id="OpenModal">  <!--  -  -->
+  <div class="model-flex">
+	 	<div class="model">
+
+	 		<div class="model__title">
+	 			<h1>ОБРАТНАЯ СВЯЗЬ</h1>
+	 		</div>
+
+	 		<div class="model__form">
+
+	 			<form class="form">
+
+	 			<div class="form__name">
+	 			<label for="input-name">Ваше имя*</label>
+	 			<input required type="text" name="name" id="input-name">
+	 		 </div>
+
+	 			<div class="form__phone">
+	 			<label for="input-phone">Телефон*</label>
+	 			<input required type="text" name="phone" id="input-phone">
+	 		 </div>
+
+	 			<div class="form__email">
+	 			<label for="input-email">Email*</label>
+	 			<input required type="email" name="email" id="input-email">
+	 		 </div>
+
+	 			<div class="form__message">
+	 			<label for="input-message">Сообщение</label>
+	 			<textarea name="message" id="input-message"></textarea>
+	 		</div>
+
+	 			<input class="submit-form" type="submit" name="submit-btn" value="Отправить">
+
+     </form>
+	 		</div>
+	 	</div> <!-- /model -->
+	 	<div class="model__close"><a href="#test-3">x</a></div>  <!--  -  -->
+	 </div>  <!--  /model-flex  -->
+	 </div>  <!--  /model-wrapper  -->
+
+  <div class="menu-wrapper">  <!--  -  -->
+		<div class="menu">
+
+			<ul>
+				<li class="menu__item-border menu__active"><a href="#">Главная</a></li>
+				<li class="menu__item-border"><a href="#">Каталог</a></li>
+				<li class="menu__item-border"><a href="#">Доставка и оплата</a></li>
+				<li class="menu__item-border"><a href="#">Прайс-лист</a></li>
+				<li class="menu__item"><a href="#">Контакты</a></li>
+			</ul>  <!--  -  -->
+
+		</div>  <!--  /menu  -->
+	 </div>  <!--  /menu-wrapper  -->
+
+		<div class="carusel-wrapper">  <!--  -  -->
+  <div class="carousel">
+
+    <div class="carousel-inner">
+
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+
+        <div class="carousel-item">
+            
+        </div>
+
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+
+        <div class="carousel-item">
+     
+        </div>
+
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+
+        <div class="carousel-item">
+            
+        </div>
+
+        <label for="carousel-3" class="carousel-control prev control-1"><img src="img/slider_backwards.jpg"></label>
+        <label for="carousel-2" class="carousel-control next control-1"><img src="img/slider_next.jpg"></label>
+        <label for="carousel-1" class="carousel-control prev control-2"><img src="img/slider_backwards.jpg"></label>
+        <label for="carousel-3" class="carousel-control next control-2"><img src="img/slider_next.jpg"></label>
+        <label for="carousel-2" class="carousel-control prev control-3"><img src="img/slider_backwards.jpg"></label>
+        <label for="carousel-1" class="carousel-control next control-3"><img src="img/slider_next.jpg"></label>
+       
+    </div>  <!--  -  -->
+
+  </div>  <!--  /carusel  -->	
+		</div>  <!--  /carusel-wrapper  -->
+
+		  <div class="nav-wrapper">
+		   <div class="nav-section">
+  			<a href="#">Главная /</a>
+  			<a href="#">Каталог /</a>
+  			<a href="#">Бытовая техника</a>  <!--  -  -->
+    	</div> 
+    </div> <!--  /nav-wrapper -->
+
+  <div class="content-wrapper">
+
+<div class="content">
+
+<div class="sidebar">  <!--  -  -->
+
+	<div class="sidebar__list">  <!--  -  -->
+ 
+ 	<input type="checkbox" id="car" name="car">
+ 	<label class="sidebar__title" for="car">Автомобили</label>
+ 	<ul class="car-group">
+			<li>ВАЗ</li>
+  	<li>Москвич</li>
+  </ul>
+
+ 	<input type="checkbox" id="tehno" name="tehno">
+ 	<label class="sidebar__title" for="tehno">Бытовая техника</label>
+ 	<ul class="tehno-group">
+			<li>Микроволновки</li>
+  	<li>Холодильники</li>
+  	<li><label for="dishwashers-list"> Посудомоечные машины</label></li>
+  	<li><label for="teapot-list">Чайники</label></li>
+  </ul>
+
+ 	<input type="checkbox" id="mob-teh" name="mob-teh">
+		<label class="sidebar__title" for="mob-teh">Мобильная техника</label>
+		<ul class="mob-group">
+			<li>Sony</li>
+  	<li>Nokia</li>
+  </ul>
+
+  	<input type="checkbox" id="comp" name="comp">
+		<label class="sidebar__title" for="comp">Компьютеры</label>
+		<ul class="comp-group">
+			<li>Asus</li>
+  	<li>HP</li>
+  </ul>
+
+  	<input type="checkbox" id="clothes" name="clothes">
+		<label class="sidebar__title" for="clothes">Одежда</label>
+		<ul class="clothes-group">
+			<li>Футболки</li>
+  	<li>Куртки</li>
+  </ul>
+
+  	<input type="checkbox" id="all" name="all">
+		<label class="sidebar__title" for="all">Недвижемость</label>
+		<ul class="all-group">
+			<li>Один</li>
+  	<li>Два</li>
+  </ul>
+
+ </div>  <!--  /sidebar__list  -->
+  		
+  			<div class="price">
+  			<a href="#" download=""><img src="img/price_list.jpg"></a>
+  		</div>
+</div>  <!--  /sidebar  -->
+
+<div class="catalog">
+
+  			<input type="radio" id="dishwashers-list" name="product-list">
+  			 <div class="tabs" id="dishwashers">
+
+       <div class="tabs__list">
+
+       	<input type="radio" name="dishwashers-catalog" id="dishwashers-tab-1" checked="">
+  	      <div class="dishwashers-list-1">
+  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+ 	</div>
+
+ 	  	<input type="radio" name="dishwashers-catalog" id="dishwashers-tab-2">
+  	      <div class="dishwashers-list-2">
+  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+  			  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Позиция 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  		</div>
+    
+    <div class="tabs__nav">
+  		<label for="dishwashers-tab-1">1</label>
+  		<label for="dishwashers-tab-2">2</label>
+  	</div>
+  	</div>
+  </div>
+
+  			<input type="radio" id="teapot-list" name="product-list">
+  			 <div class="tabs" id="teapot">
+
+       <div class="tabs__list">
+
+       	<input type="radio" name="list" id="tab-1" checked="">
+  	      <div class="list-1">
+  	      <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  		</div> <!-- /list-1 -->
+
+  		  	      <input type="radio" name="list" id="tab-2">
+  	          <div class="list-2">
+  	          <div class="catalog__list-card">
+  			       	<div class="product">
+  			       		<div class="product__photo"><img src="img/product-photo.png"></div>
+  				       	<div class="product__info"><p>Чайник 1</p></div>
+  					       <div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				       </div>
+  			        </div>
+
+  			        <div class="catalog__list-card">
+  			       	<div class="product">
+  			       		<div class="product__photo"><img src="img/product-photo.png"></div>
+  				       	<div class="product__info"><p>Чайник 1</p></div>
+  					       <div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				       </div>
+  			        </div>
+
+  			        <div class="catalog__list-card">
+  			       	<div class="product">
+  			       		<div class="product__photo"><img src="img/product-photo.png"></div>
+  				       	<div class="product__info"><p>Чайник 1</p></div>
+  					       <div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				       </div>
+  			        </div>
+
+  			        <div class="catalog__list-card">
+  			       	<div class="product">
+  			       		<div class="product__photo"><img src="img/product-photo.png"></div>
+  				       	<div class="product__info"><p>Чайник 1</p></div>
+  					       <div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				       </div>
+  			        </div>
+
+  			        <div class="catalog__list-card">
+  			       	<div class="product">
+  			       		<div class="product__photo"><img src="img/product-photo.png"></div>
+  				       	<div class="product__info"><p>Чайник 1</p></div>
+  					       <div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				       </div>
+  			        </div>
+
+  			        <div class="catalog__list-card">
+  			       	<div class="product">
+  			       		<div class="product__photo"><img src="img/product-photo.png"></div>
+  				       	<div class="product__info"><p>Чайник 1</p></div>
+  					       <div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				       </div>
+  			        </div>
+  		         </div>
+
+  		           	      <input type="radio" name="list" id="tab-3">
+  	      <div class="list-3">
+  	      	<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+     </div>
+    
+    <div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  			<div class="catalog__list-card">
+  				<div class="product">
+  					<div class="product__photo"><img src="img/product-photo.png"></div>
+  					<div class="product__info"><p>Чайник 1</p></div>
+  					<div class="product__price"><strong>1 900 р.</strong><img src="img/basket.png"></div>
+  				</div>
+  			</div>
+
+  	      </div>
+
+       </div>  <!--  /tabs__list  -->
+
+       <div class="tabs__nav">
+       	<label for="tab-1">1</label>
+       	<label for="tab-2">2</label>
+       	<label for="tab-3">3</label>
+       </div>
+
+      </div> <!--  /tabs  -->
+	
+    </div> <!--  /catalog  -->  		
+  		</div> <!--  /content  -->
+ 		
+  	</div> <!--  /content-wrapper  -->
+
+   <div class="line-wrapper">
+  	 <div class="line">
+  			<span class="line-border"></span>
+  		</div>
+  	</div>
+
+    <div class="info-block-wrapper">
+  	 <div class="info-block">
+    	<p class="info-block__text-margin">Компания &#171;Пиксель плюс&#187; существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверено называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души.</p>
+    	<p class="info-block__text">Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данный момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственые уникальные разработки в облости SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем Московском офисе.</p>
+    </div>
+   </div> <!-- /info-block-wrapper -->
+  	
+
+		<div class="foot-wrapper">
+		<div class="footer">
+			
+			<div class="footer__info">
+				<p>&copy; 2012-2013 ЗАО &#171;Компания&#187;</p>
+			 <p>info@name.ru</p>
+			</div>
+
+			<div class="footer__menu">
+
+				<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+
+			</div>
+
+			<div class="footer__contact">
+				<div class="logo">
+				<img src="img/company.jpg" alt="company-logo">
+			</div>
+				<p><a href="#">Разработка сайта</a> - компания &#171;Пиксель Плюс&#187;</p>
+			</div>
+
+		</div> <!-- /footer -->
+	 </div>
+
+
+	</main>
+</body>
+</html>

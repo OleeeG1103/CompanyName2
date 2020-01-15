@@ -1,0 +1,14 @@
+.nav-section {
+	width: 980px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0px 10px 0px 10px;
+
+	a {
+		margin-right: 10px;
+		color: $color-text;
+	}
+}

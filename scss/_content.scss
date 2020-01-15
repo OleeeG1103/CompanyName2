@@ -1,0 +1,196 @@
+
+.content {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+ margin: 20px 10px 0px 10px;
+
+	.sidebar {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 200px;
+		max-height: 520px;
+		color: $color-text;
+
+		&__list {
+			width: 100%;
+		}
+
+		
+  input,
+  .car-group,
+  .tehno-group,
+  .mob-group,
+  .comp-group,
+  .clothes-group,
+  .all-group {
+  	display: none;
+  }
+
+		&__title {
+			display: block;
+	  font-size: 18px;
+	  
+		}
+
+&__title:hover,
+li:hover {
+	color: #000;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+}
+
+ul {
+	margin: 0;
+	padding-left: 25px;
+	font-size: 14px;
+	
+}
+
+img {
+	width: 150px;
+	height: 140px;
+	margin: 10px 0px 10px 0px;
+}
+
+}
+}
+
+#car:checked ~ .car-group,
+#tehno:checked ~ .tehno-group,
+#mob-teh:checked ~ .mob-group,
+#comp:checked ~ .comp-group,
+#clothes:checked ~ .clothes-group,
+#all:checked ~ .all-group {
+	display: block;
+}
+
+.catalog {
+	width: 80%;
+	min-height: 900px;
+	position: relative;
+	display: flex;
+
+	& input {
+		display: none;
+	}
+
+.tabs {
+		width: 100%;
+		position: absolute;
+		visibility: hidden;
+		transition: opacity 0.6s ease-out;
+
+		& input {
+			display: none;
+		}
+
+		& label {
+			display: inline-flex;
+			cursor: pointer;
+			font-size: 18px;
+			margin: 0px 7px 0px 7px;
+			color: $color-text;
+		}
+
+		&__nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+  .dishwashers-list-1,
+  .dishwashers-list-2,
+		.list-1, 
+		.list-2, 
+		.list-3 {
+	   display: none;
+	   min-height: 760px;
+}
+
+#dishwashers-tab-1:checked ~ .dishwashers-list-1,
+#dishwashers-tab-2:checked ~ .dishwashers-list-2,
+#tab-1:checked ~ .list-1,
+#tab-2:checked ~ .list-2, 
+#tab-3:checked ~ .list-3 {
+	display: block;
+}
+
+	} 
+
+	#teapot-list:checked ~ #teapot {
+	  visibility: visible;
+  }
+
+  #dishwashers-list:checked ~ #dishwashers {
+  	visibility: visible;
+  }
+
+
+&__list-card {
+	height: 335px;
+	width: 245px;
+	display: inline-flex;
+	background-color: $bcg-head;
+	margin: 0px 10px 20px 0px;
+ padding: 20px 0px 20px 0px;
+}
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+
+&__info {
+	flex-grow: 1;
+	font-size: $fz-card-info;
+	color: $color-text;
+}
+
+	&__price {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		font-size: $fz-card-price;
+		color: $color-card-price;
+
+		img {
+		width: 30px;
+		height: 20px;
+
+		&:hover {
+		transform: scale(1.2);
+			cursor: pointer;
+		}
+	}
+
+	}
+}
+
+
+	
+
+
+
+/*.catalog__list {
+	visibility: hidden;
+}
+
+#teapot-list:checked ~ .catalog__list {
+	visibility: visible;
+
+}*/

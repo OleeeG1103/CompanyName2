@@ -1,0 +1,179 @@
+@media (min-width: 981px) {
+	.head-wrapper {
+		width: 100%;
+	}
+	.menu-wrapper {
+		width: 100%;
+	}
+	.nav-wrapper {
+		width: 100%;
+	}
+	.content-wrapper {
+		width: 100%;
+	}
+	.line-wrapper {
+	width: 100%;
+}
+	.info-block-wrapper {
+	 width: 100%;
+}
+	.foot-wrapper {
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+.header {
+	width: 100%;
+}
+
+.menu {
+	width: 100%;
+	& a {
+	font-size: 22px;
+}
+}
+
+.nav-section {
+	width: 100%;
+}
+.content {
+	width: 100%;
+ .catalog {
+ 	min-height: 1300px;
+
+ 	.tabs {
+ 		left: 30px;
+ 		width: 94%;
+ 	}
+ }
+}
+
+.line {
+	width: 100%;
+	&-border {
+		margin-right: 0;
+	}
+}
+
+.info-block {
+	width: 100%;
+	justify-content: center;
+	p{
+		width: 320px;
+	}
+}
+}
+
+@media (max-width: 767px) {
+.header {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px 0px 20px 0px;
+
+		&__logo {
+			margin-bottom: 20px;
+		}
+	}
+	.menu {
+				
+  & ul {
+  	flex-direction: column;
+  }
+
+  & li {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  &__item-border {
+	border-right: none;
+	border-bottom: 2px solid #fff;
+}
+	}
+.content {
+	flex-direction: column;
+
+
+	.sidebar {
+		width: 100%;
+		flex-direction: row;
+		align-items: flex-start;
+		&__list {
+			height: 320px;
+			}
+
+			img {
+				margin: 0;
+			}
+	}
+	}
+
+	.dishwashers-list-1,
+	.dishwashers-list-2,
+	.list-1,
+	.list-2,
+	.list-3 {
+		text-align: center;
+	}
+
+	.catalog {
+		height: 2400px;
+		width: 100%;
+	}
+
+	.line {
+		width: 100%;
+		&-border {
+			margin-right: 0;
+		}
+	}
+
+	.info-block {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 30px 10px 30px 10px;
+
+		p {
+			width: 300px;
+
+		}
+
+		.info-block__text-margin {
+			margin-right: 0;
+		}
+	}
+
+	.footer {
+		flex-direction: column;
+		align-items: center;
+
+		&__info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		&__menu {
+			margin: 20px 0px 20px 0px;
+
+			li {
+				display: flex;
+				justify-content: center;
+			}
+		}
+	}
+
+	.model {
+		width: 350px;
+		.form input {
+			width: 300px;
+		}
+		.form textarea {
+			width: 300px;
+		}
+	}
+}

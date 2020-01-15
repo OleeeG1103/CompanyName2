@@ -1,0 +1,37 @@
+.menu {
+	width: 980px;
+	background-color: $bcg-color;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 22px 0px 32px 0px;
+	margin: 0px 10px 0px 10px;
+	list-style: none;
+
+& ul {
+ margin: 0;
+ padding: 0;
+ display: flex;
+}
+
+& li {
+ display: inline-flex;
+ padding: 0px 11px 0px 11px;
+}
+
+& a {
+	font-size: $fz-menu;
+	color: $color-link;
+	text-decoration: none;
+	font-family: $ff-Open_Sans;
+}
+
+& a:hover {
+	text-decoration: underline;
+}
+
+&__item-border {
+	border-right: 2px solid #fff;
+}
+
+}

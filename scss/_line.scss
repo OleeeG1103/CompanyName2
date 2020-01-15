@@ -1,0 +1,12 @@
+.line {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+	&-border {
+		width: 778px;
+		margin-right: 15px;
+		border: 1px solid $bcg-head;
+	}
+}

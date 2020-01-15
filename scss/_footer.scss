@@ -1,0 +1,44 @@
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: $bcg-color;
+	width: 980px;
+	padding: 50px 0px 40px 0px;
+	margin: 0px 10px 0px 10px;
+ font-size: $fz-text;
+ line-height: 22px;
+ color: $color-link;
+
+ a {
+ 	color: $color-link;
+ }
+	
+	 p {
+		margin: 0;
+	}
+
+	&__menu {
+
+	 ul {
+	 	margin: 0;
+	 	padding-left: 0;
+	 	list-style: none;
+	 }
+
+	}
+
+	&__contact {
+  display: flex;
+  width: 210px;
+  
+  .logo {
+  	margin: 4px 10px 0px 0px;
+  }
+		img {
+			width: 36px;
+			height: 38px;
+		}
+	}
+
+}

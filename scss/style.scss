@@ -1,0 +1,87 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "header.scss";
+@import "model.scss";
+@import "menu.scss";
+@import "carusel.scss";
+@import "nav-section.scss";
+@import "content.scss";
+@import "line.scss";
+@import "info-block.scss";
+@import "footer.scss";
+@import "media.scss";
+
+body {
+	margin: 0;
+}
+
+.head-wrapper {
+	background-color: $bcg-head;
+	@include content-center;
+	flex-grow: 0;
+}
+
+.model-wrapper {
+	width: 100vw;
+	height: 100%;
+	background-color: rgba(110,110,110,0.50);
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+    z-index: 1;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#OpenModal {
+	display: none;
+}
+
+#OpenModal:target {
+	display: flex;
+
+}
+
+.menu-wrapper {
+	background-color: $bcg-color;
+ @include content-center;
+}
+
+
+.carusel-wrapper {
+ @include content-center;
+ width: 100%;
+ height: 400px;
+ }
+
+
+.nav-wrapper {
+	@include content-center;
+	background-color: $color-link;
+}
+
+
+.content-wrapper {
+	@include content-center;
+	background-color: $color-link;
+}
+
+.line-wrapper {
+	@include content-center;
+	background-color: $color-link;
+}
+
+.info-block-wrapper {
+	@include content-center;
+	background-color: $color-link;
+}
+
+.foot-wrapper {
+	background-color: $bcg-color;
+	@include content-center;
+	flex-grow: 1;
+}
+

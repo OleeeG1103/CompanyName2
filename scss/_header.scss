@@ -1,0 +1,42 @@
+.header {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: $bcg-head;
+    padding:  40px 0px 65px 0px;
+    margin: 0px 10px 0px 10px;
+ 
+
+	&__logo {
+		width: 275px;
+		height: 100px;
+	}
+
+	&__phone {
+		font-family: $ff-Open_Sans_Cund;
+		font-size: $fz-title;
+		line-height: 42px;
+		color: $color-phone;
+		text-align: right;
+
+
+	a {
+		font-size: $fz-button;
+		color: $bcg-color;
+		font-family: $ff-Open_Sans;
+		font-weight: bold;
+		text-decoration: none;
+		border-bottom: 2px dashed;
+
+
+
+	}
+	}
+
+	&__phone p {
+		margin: 0;
+	}
+
+}
